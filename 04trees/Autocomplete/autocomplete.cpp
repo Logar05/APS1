@@ -41,6 +41,9 @@ void insert(const string &s, int weight, trieNode* current, int indeksDodaje) {
     }
 }
 
+
+///////////////////////////////////////////////////
+//Print output test
 void dfsPrint(trieNode* current, string buffer) {
     if(current->jeBeseda) {
         cout << buffer << " ";
@@ -52,6 +55,7 @@ void dfsPrint(trieNode* current, string buffer) {
         dfsPrint(current->otroci[i], buffer);
     }
 }
+///////////////////////////////////////////////////
 
 int main() {
     int n;
