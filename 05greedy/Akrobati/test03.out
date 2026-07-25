@@ -1,0 +1,10 @@
+NE
+NE
+DA
+DA
+NE
+NE
+NE
+NE
+NE
+DA
